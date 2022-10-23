@@ -1,0 +1,56 @@
+body{
+    width: 100vw;
+    height: 1350vh;
+    /* background-image: url('UXUI01_m.png'); */
+    margin: 0 auto;
+    padding: 0 auto;
+    background-size : cover;
+    overflow-x: hidden;
+    align-items: center;
+    cursor: url(cur_w.cur), url(cur_w.cur), auto
+}
+
+html{
+    cursor: url(cur_w.cur), url(cur_w.cur), auto
+}
+
+.main{
+    display: block;
+    
+}
+
+.img01{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    margin: 0 auto;
+    display: block;
+    
+}
+
+.box01{
+    width: 50vw;
+    height: auto;
+}
+
+#box01{
+    z-index: 4;
+    position: absolute;
+    top: 4835px;
+    left: 250px;
+}
+
+#box02{
+    z-index: 4;
+    position: absolute;
+    top: 6250px;
+    left: 250px;
+}
+
+#box03{
+    width: 10px;
+    z-index: 4;
+    position: absolute;
+    top: 10530px;
+    left: 250px;
+}

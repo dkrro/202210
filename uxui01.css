@@ -1,0 +1,26 @@
+body{
+    width: 100vw;
+    height: 1100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.img01{
+    width: 50vw;
+    height: 50vh;
+    background: black;
+    color: #001631;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.img01{
+    width: 100vw;
+    height: 100vh;
+    background: #001631;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+}

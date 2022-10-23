@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+Display:wght@500;600;700&family=Noto+Sans:wght@400@500@600&family=Noto+Serif+Display:wght@700@800&display=swap');
+
+
+
+body{
+    background: black;
+    color: white;
+    margin: 0px;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+.box_con{
+    opacity: 50%;
+}
+
+.list_tltle{
+    text-align: center;
+}
+
+.list_01{
+    color: black;
+    -webkit-text-stroke : 1px white;
+    font-weight: 800;
+    font-size: 150px;
+    position: fixed;
+    top: 350px;
+    left: 330px;
+    letter-spacing:-3px;
+}
+
+.list_01:hover{
+    color: white;
+    transition: all .3s linear;
+    -webkit-text-stroke : 0;
+}
+
+.list_02{
+    color: black;
+    -webkit-text-stroke : 1px white;
+    font-weight: 800;
+    font-size: 150px;
+    position: fixed;
+    top: 350px;
+    left: 750px;
+    letter-spacing:-3px;
+}
+
+.list_02:hover{
+    color: white;
+    transition: all .3s linear;
+    -webkit-text-stroke : 0;
+}
+
+
+.list_03{
+    color: black;
+    -webkit-text-stroke : 1px white;
+    font-weight: 800;
+    font-size: 150px;
+    position: fixed;
+    top: 350px;
+    left: 1200px;
+    letter-spacing:-3px;
+}
+
+.list_03:hover{
+    color: white;
+    transition: all .3s linear;
+    -webkit-text-stroke : 0;
+}
+
+
+
+/* 기본틀 */
+
+.low_03{
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    
+}
+
+.low_02{
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    color: white;
+}
+
+.low_01{
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    color: white;
+}
+
+.logo{
+    
+    position: fixed;
+    top: 10px;
+    left: 15px;
+}
+
+
+nav{
+    font-size: 5px;
+    position: absolute;
+    bottom: 8px;
+    white-space:nowrap;
+    margin-left: 550px;
+}
+nav li{
+    margin-left: 50px;
+}
+
+.list_01{
+    color: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style: none;
+    margin:0px; padding:0px;
+    float: left;
+}
+
+ul, li {
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+}

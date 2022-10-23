@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+Display:wght@500;600;700&family=Noto+Sans:wght@400@500@600&family=Noto+Serif+Display:wght@700@800&display=swap');
+
+
+
+body{
+    background: black;
+    color: white;
+    margin: 0px;
+    font-family: 'Noto Sans Display', sans-serif;
+    height: 2000px;
+}
+
+.list_01{
+    color: black;
+    font-weight: 800;
+    font-size: 102px;
+    position: fixed;
+    top: 98px;
+    left: 300px;
+    letter-spacing:-2px;
+    z-index: 3;
+    -webkit-text-stroke : 1px white
+}
+
+.list_02{
+    font-weight: 800;
+    font-size: 100px;
+    position: fixed;
+    top: 100px;
+    left: 800px;
+    letter-spacing:-2px;
+    z-index: 3;
+}
+
+/* .banner01{
+    width: 800px;
+    height: 500px;
+    background: wheat;
+    position: absolute;
+    top: 50px;
+    margin-left: 530px;
+} */
+
+
+
+/* 하단은 고정css */
+
+.low_03{
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    
+}
+
+.low_02{
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    color: white;
+}
+
+.low_01{
+    position: fixed;
+    bottom: 10px;
+    left: 15px;
+    color: white;
+}
+
+.logo{
+    
+    position: fixed;
+    top: 10px;
+    left: 15px;
+}
+
+
+
+nav{
+    font-size: 5px;
+    position: fixed;
+    bottom: 8px;
+    white-space:nowrap;
+    margin-left: 550px;
+}
+nav li{
+    margin-left: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style: none;
+    margin:0px; padding:0px;
+    float: left;
+}
+
+ul, li {
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+}

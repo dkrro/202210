@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@900&display=swap');
+
+
+body {
+    margin: 0px;
+    background: black;
+    font-family: 'Noto Sans Display', sans-serif;
+    color: white;
+}
+
+
+
+.con{
+    overflow: hidden;
+}
+
+.warp_text{
+    width : 500vw;
+    height: 500px;
+    transition: all 100s linear;
+    transform: translateX(-100vw);
+}
+
+.mt_01{
+    color: white;
+    font-size: 100px;
+    float: left;
+    margin-top: 450px;
+    margin-left: 30px;
+}
+/* 롤링 이미지 UL */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 하단은 기본 css */
+
+
+
+
+
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style: none;
+    margin:0px; padding:0px;
+    float: left;
+}
+
+ul, li {
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+}

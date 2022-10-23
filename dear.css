@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+Display:wght@500;600;700&family=Noto+Sans:wght@400@500@600&family=Noto+Serif+Display:wght@700@800&display=swap');
+
+html{
+    cursor: url(cur_w.cur), url(cur_w.cur), auto
+}
+
+body{
+    background: black;
+    color: white;
+    margin: 0px;
+    font-family: 'Noto Sans Display', sans-serif;
+    height: 300vh;
+    width: 100vw;
+    overflow-x: hidden;
+    cursor: url(cur_w.cur), url(cur_w.cur), auto
+}
+
+
+.main_pic{
+    position: absolute;
+    top: 1080px;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow: hidden;
+    
+}
+
+
+.low_03{
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    z-index: 4;
+}
+
+.low_02{
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    color: white;
+    z-index: 4;
+}
+
+.low_01{
+    position: fixed;
+    bottom: 10px;
+    left: 15px;
+    color: white;
+    z-index: 4;
+}
+
+.logo{
+    
+    position: fixed;
+    top: 10px;
+    left: 15px;
+    z-index: 4;
+}
+
+.main_title{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 200px;
+    font-size: 150px;
+    font-weight: 800;
+    
+}
+
+nav{
+    font-size: 5px;
+    position: fixed;
+    bottom: 8px;
+    white-space:nowrap;
+    margin-left: 550px;
+    z-index: 4;
+}
+nav li{
+    margin-left: 50px;
+    z-index: 4;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    z-index: 4;
+    cursor: url(cur_w.cur), url(cur_w.cur), auto
+}
+
+ol, ul {
+    list-style: none;
+    margin:0px; padding:0px;
+    float: left;
+    z-index: 4;
+}
+
+ul, li {
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+    z-index: 4;
+}
+
+.center{
+    font-size: 30px;
+    position: absolute;
+    top : 1000px ; 
+    left : 770px ; 
+    text-align: center;
+    font-family: 'Noto Sans ', sans-serif;
+    font-weight: 400;
+}

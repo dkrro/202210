@@ -1,0 +1,1 @@
+// document.getElementsByClassName("line_02").style.top='0'

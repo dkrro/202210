@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+Display:wght@500;600;700&family=Noto+Sans:wght@400@500@600&family=Noto+Serif+Display:wght@700@800&display=swap');
+
+
+
+body{
+    background: #f7f7f4;
+    color: #001631;
+    margin: 0px;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+.work_pic {
+    width: 400px;
+    height: 550px;
+    background: black;
+    position: fixed;
+    top: 150px;
+    left: 400px;
+}
+
+.explan_title{
+    letter-spacing:-7px;
+    font-size: 100px;
+    font-weight: 700;
+    position: fixed;
+    top: 130px;
+    left: 850px;
+    text-align: left;
+}
+
+.explan_sub{
+    letter-spacing:-3px;
+    font-size: 27px;
+    font-weight: 300;
+    position: fixed;
+    top: 300px;
+    left: 860px;
+    text-align: left;
+}
+
+
+.box01{
+    width: 150px;
+    height: 200px;
+    background: black;
+    position: fixed;
+    top: 150px;
+    right: 100px;
+    opacity: 70%;
+}
+
+.box01:hover{
+    opacity: 100%;
+    transition: all .3s linear;
+}
+
+.box02{
+    width: 150px;
+    height: 200px;
+    background: black;
+    position: fixed;
+    top: 150px;
+    right: 270px;
+    opacity: 70%;
+
+}
+
+
+/* 고정css */
+
+
+.list_01{
+
+    font-weight: 800;
+    font-size: 102px;
+    position: fixed;
+    top: 98px;
+    left: 100px;
+    letter-spacing:-2px;
+    
+}
+
+.list_01:hover{
+    left: 130px;
+    transition: all .2s linear;
+}
+
+
+.list_02{
+    color: #f7f7f4;
+    -webkit-text-stroke : 1px #001631;
+    font-weight: 800;
+    font-size: 100px;
+    position: fixed;
+    top: 200px;
+    left: 100px;
+    letter-spacing:-2px;
+}
+
+.list_02:hover{
+    color: #001631;
+    left: 130px;
+    transition: all .2s linear;
+}
+
+
+.list_03{
+    color: #f7f7f4;
+    -webkit-text-stroke : 1px #001631;
+    font-weight: 800;
+    font-size: 100px;
+    position: fixed;
+    top: 300px;
+    left: 100px;
+    letter-spacing:-2px;
+}
+
+.list_03:hover{
+    color: #001631;
+    left: 130px;
+    transition: all .2s linear;
+}
+
+.low_03{
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    
+}
+
+.low_02{
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    color: #001631;
+}
+
+.low_01{
+    position: fixed;
+    bottom: 10px;
+    left: 15px;
+    color: #001631;
+}
+
+.logo{
+    
+    position: fixed;
+    top: 10px;
+    left: 15px;
+}
+
+
+nav{
+    font-size: 5px;
+    position: fixed;
+    bottom: 8px;
+    white-space:nowrap;
+    margin-left: 550px;
+}
+nav li{
+    margin-left: 50px;
+}
+
+a{
+    color: #001631;
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style: none;
+    margin:0px; padding:0px;
+    float: left;
+}
+
+ul, li {
+    display: inline-block;
+    font-size: 30px;
+    color: #001631;
+}

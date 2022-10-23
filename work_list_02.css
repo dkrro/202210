@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+Display:wght@500;600;700;800;900&family=Noto+Sans:wght@500@600&family=Noto+Serif+Display:wght@700&display=swap');
+
+
+body {
+    margin: 0px;
+    background: black;
+    font-family: 'Noto Sans Display', sans-serif;
+    color: white;
+}
+
+.art01{
+    position: fixed;
+    z-index: 3;
+    width: 250px;
+    height: 250px;
+    background: white;
+    top: 250px;
+    left: 270px;
+}
+
+.art02{
+    float: left;
+    position: absolute;
+    z-index: 3;
+    width: 250px;
+    height: 250px;
+    background: white;
+    top: 250px;
+    left: 550px;
+}
+
+.art03{
+    position: absolute;
+    z-index: 3;
+    width: 250px;
+    height: 250px;
+    background: white;
+    top: 250px;
+    left: 830px;
+}
+
+.art04{
+    position: absolute;
+    z-index: 3;
+    width: 250px;
+    height: 250px;
+    background: white;
+    top: 250px;
+    left: 1110px;
+}
+
+.art05{
+    position: absolute;
+    z-index: 3;
+    width: 250px;
+    height: 250px;
+    background: white;
+    top: 250px;
+    left: 1390px;
+}
+
+.art06{
+    position: fixed;
+    z-index: 3;
+    width: 250px;
+    height: 250px;
+    background: white;
+    top: 530px;
+    left: 270px;
+}
+
+.art07{
+    float: left;
+    position: absolute;
+    z-index: 3;
+    width: 250px;
+    height: 250px;
+    background: white;
+    top: 530px;
+    left: 550px;
+}
+
+.art08{
+    position: absolute;
+    z-index: 3;
+    width: 250px;
+    height: 250px;
+    background: white;
+    top: 530px;
+    left: 830px;
+}
+
+.art09{
+    position: absolute;
+    z-index: 3;
+    width: 250px;
+    height: 250px;
+    background: white;
+    top: 530px;
+    left: 1110px;
+}
+
+.art10{
+    position: absolute;
+    z-index: 3;
+    width: 250px;
+    height: 250px;
+    background: white;
+    top: 530px;
+    left: 1390px;
+}
+
+.num_2022 {
+    z-index: 2;
+    -webkit-text-stroke: 2px white;
+    font-size: 350px;
+    color: black;
+    font-weight: 900;
+    position: absolute;
+    top: 0px;
+    margin-left: 100px;
+    padding: 0;
+    letter-spacing:-10px;
+    opacity: 30%;
+}
+
+
+.line_02{
+    width: 2px;
+    height: 245px;
+    background: white;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    margin-left: 1250px;
+    padding: 0;    
+}
+
+
+
+.mid{
+    font-weight: 600;
+
+}
+
+.year{
+    position: absolute;
+    top: 73px;
+    font-size: 27px;
+    color:white;
+    margin-left: 1300px;
+}
+
+.main_box_02{
+    width: 100vw;
+    height: 100%;
+    background: wheat;
+    z-index: 99999;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    left: -100vw;
+    transition: all 1s linear;
+    transform: translateX(0);
+}
+
+.low_03{
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    
+}
+
+.low_02{
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    color: white;
+}
+
+.low_01{
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    color: white;
+}
+
+.low_0{
+    
+    position: fixed;
+    top: 10px;
+    left: 15px;
+}
+
+.list{
+    margin-top: 70px;
+    font-size: 27px;
+    margin-left: 1700px;
+    z-index: 10;
+    
+}
+
+nav{
+    font-size: 5px;
+    position: absolute;
+    bottom: 8px;
+    white-space:nowrap;
+    margin-left: 550px;
+}
+nav li{
+    margin-left: 50px;
+}
+
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style: none;
+    margin:0px; padding:0px;
+    float: left;
+}
+
+ul, li {
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+.all{
+    overflow: hidden;
+}
+.main_box{
+    width: 700px;
+    height: 450px;
+    background-color: white;
+    position: fixed;
+    z-index: 3;
+    top: 280px;
+    left: 600px;
+}
+
+
+.warp_text{
+    width : 12000px;
+    transition: all 100s linear 0s;
+    transform: translateX(-1000px);
+
+}
+
+
+.mt_01{
+    color: white;
+    font-size: 100px;
+    float: left;
+    margin-top: 430px;
+    margin-left: 70px;
+}
+
+.sub{
+
+    
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 27px;
+    font-weight: 300;
+    position: absolute;
+    top: 100px;
+    text-align: left;
+    margin-left: 1300px;
+}
+    
+
+
+.main_title_02{
+    color: white;
+    position: absolute;
+    top: 30px;
+    margin-left: 20px;
+    font-size: 150px;
+    align-items: center;
+    font-weight: 700;
+}
+
+.main_title_02_1{
+    color: white;
+    font-size: 150px;
+    position: absolute;
+    top : 150px;
+    left: 500px;
+    margin: 0;
+    z-index: 4;
+    font-weight: 700;
+    }
